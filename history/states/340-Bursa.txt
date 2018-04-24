@@ -1,0 +1,33 @@
+
+state = {
+	id = 340
+	name = "STATE_340"
+	resources = {
+		chromium = 54.000
+	}
+
+	history = {
+		owner = OTT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			904 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			947 10
+		}
+		add_core_of = OTT
+
+	}
+
+	provinces = {
+		785 890 904 947 3786 3851 6871 6912 9799 11778 11811 11867 6864 9887
+	}
+	manpower = 1397998
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

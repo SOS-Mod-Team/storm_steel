@@ -1,0 +1,31 @@
+
+state = {
+	id = 310
+	name = "STATE_310"
+	resources = {
+		aluminium = 104
+	}
+
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+			12885 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			12885 1
+		}
+
+	}
+
+	provinces = {
+		4934 12885 13417
+	}
+	manpower = 37010
+	buildings_max_level_factor = 1
+	state_category = rural
+}

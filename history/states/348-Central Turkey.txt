@@ -1,0 +1,24 @@
+
+state = { #Ningxia
+	id = 348
+	name = "STATE_348"
+
+	history = {
+		owner = QIE
+		
+		add_claim_by = QIE
+		add_claim_by = FNG
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces = {
+		3742 8081 8127 10724 10854
+	}
+	manpower = 1196427
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

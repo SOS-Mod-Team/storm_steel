@@ -1,0 +1,303 @@
+﻿capital = 47
+
+oob = "GRE"
+
+set_research_slots = 3
+
+set_technology = {
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	gw_artillery = 1
+	tech_support = 1
+	tech_recon = 1
+	### AIR ###
+	early_fighter = 1
+}
+
+set_convoys = 40
+
+
+add_ideas = {
+	#medium_economy
+	limited_conscription
+	GRE_Eleftherios_Venizelos_hog_sco
+	GRE_Constantinos_Rentis_for_sli
+	GRE_Georgios_Mantzavinos_eco_ade
+	GRE_Konstantinos_Tsaldaris_sec_sco
+}
+
+add_opinion_modifier = { target = BUL modifier = embargo }
+add_opinion_modifier = { target = BUL modifier = Balkans_hates_bulgaria }
+add_opinion_modifier = { target = OTT modifier = embargo }
+
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 2
+		}
+		radical_socialist = {
+			popularity = 6
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 15
+		}
+		social_liberal = {
+			popularity = 37
+		}
+		market_liberal = {
+			popularity = 11
+		}
+		social_conservative = {
+			popularity = 22
+		}
+		authoritarian_democrat = {
+			popularity = 7
+		}
+		paternal_autocrat = {
+			popularity = 6
+		}
+		national_populist = {
+			popularity = 1
+		}
+	}
+
+	ruling_party = social_liberal
+	last_election = "1934.4.4"
+	election_frequency = 96
+	elections_allowed = no
+}
+
+#create_country_leader = {
+#	name = "Aris Diokitis"
+#	desc = "POLITICS_DIOKITIS_DESC"
+#	picture = "Portrait_GRE_Athanasios_Klaras.tga"
+#	expire = "1965.1.1"
+#	ideology = totalist_subtype
+#	traits = {
+#
+#	}
+#}
+create_country_leader = {
+	name = "Nikos Zachariadis"
+	desc = "POLITICS_ZACHARIADIS_DESC"
+	picture = "Portrait_GRE_Nikos_Zachariadis.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Kostas Gavriilides"
+	desc = "POLITICS_GAVRIILIDES_DESC"
+	picture = "Portrait_GRE_Kostas_Gavriilides.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Nikolaos Plastiras"
+	desc = "POLITICS_PLASTIRAS_DESC"
+	picture = "Portrait_GRE_Nikolaos_Plastiras.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Themistoklis Sofoulis"
+	desc = "POLITICS_SOFOULIS_DESC"
+	picture = "Portrait_GRE_Themistoklis_Sofoulis.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Geórgios Papandreou"
+	desc = "POLITICS_SOFOULIS_DESC"
+	picture = "Portrait_GRE_Georgios_Papandreou.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Themistoklis Sofoulis"
+	desc = "POLITICS_SOFOULIS_DESC"
+	picture = "Portrait_GRE_Themistoklis_Sofoulis.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Pangalis Tsaldaris"
+	desc = "POLITICS_TSALDARIS_DESC"
+	picture = "Portrait_GRE_Pangalis_Tsaldaris.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+### Field Marshal
+create_field_marshal = { #Auto-Generated
+	name = "Georgios Kondylis"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Kondylis.tga"
+	traits = {
+		old_guard
+		aggressive_assaulter
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_field_marshal = { #Auto-Generated
+	name = "Alexandros Papagos"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Papagos.tga"
+	traits = {
+		cavalry_officer
+		organizer
+		thorough_planner
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Athanasios Klaras"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Athanasios_Klaras.tga"
+	traits = {
+		trickster
+		brilliant_strategist
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = { #Auto-Generated
+	name = "Stefanos Sarafis"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Sarafis.tga"
+	traits = {
+		old_guard
+		trait_reckless
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = { #Auto-Generated
+	name = "Napoleon Zervas"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Zervas.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+#create_corps_commander = { #Auto-Generated
+#	name = "Ioannis Zisis"
+#	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Zisis.tga"
+#	traits = {
+#	}
+#	skill = 1
+#	attack_skill = 1
+#	defense_skill = 2
+#	planning_skill = 1
+#	logistics_skill = 1
+#}
+create_corps_commander = { #Auto-Generated
+	name = "Manolis Mantakas"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Mantakas.tga"
+	traits = {
+		infantry_officer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = { #Auto-Generated
+	name = "Konstantinos Bakopoulos"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Bakopoulos.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+### Navy Leader
+
+create_navy_leader = { #Auto-Generated
+	name = "Alexandros Sakellariou"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Sakellariou.tga"
+	traits = {
+		old_guard
+		superior_tactician
+	}
+	skill = 3
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Saxinis"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Saxinis.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Tsamotos"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Tsamotos.tga"
+	traits = {
+		seawolf
+	}
+	skill = 2
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Votsis"
+	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Votsis.tga"
+	traits = {
+	}
+	skill = 1
+}

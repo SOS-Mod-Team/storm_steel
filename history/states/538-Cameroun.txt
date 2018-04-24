@@ -1,0 +1,25 @@
+
+state = {
+	id = 538
+	name = "STATE_538"
+
+	history = {
+		owner = BEL
+		add_core_of = CNR
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			988 1
+		}
+
+	}
+
+	provinces = {
+		988 7219 7931 10071 12775
+	}
+	manpower = 566403
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+}

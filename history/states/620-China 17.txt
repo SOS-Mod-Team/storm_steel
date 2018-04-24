@@ -1,0 +1,30 @@
+
+state = { #Hubei
+	id = 620
+	name = "STATE_620"
+	state_category = large_town
+
+	history = {
+		owner =  QIE
+		add_core_of = QIE
+		add_core_of = SQI
+		add_core_of = AOG
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12467 5
+		}
+
+	}
+
+	provinces = {
+		1612 4130 7596 7609 7948 10474 10757 12467
+	}
+	manpower = 25541600
+	buildings_max_level_factor = 1.000
+}

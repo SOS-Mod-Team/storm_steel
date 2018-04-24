@@ -1,0 +1,66 @@
+﻿capital = 109
+OOB = "empty"
+set_research_slots = 3
+set_convoys = 50
+
+set_technology = {
+	### Navy ###
+	shipbuild_basics = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	####Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	### AIR ###
+	early_fighter = 1
+}
+
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 3
+		}
+		radical_socialist = {
+			popularity = 10
+		}
+		syndicalist = {
+			popularity = 15
+		}
+		social_democrat = {
+			popularity = 47
+		}
+		social_liberal = {
+			popularity = 11
+		}
+		market_liberal = {
+			popularity = 6
+		}
+		social_conservative = {
+			popularity = 5
+		}
+		authoritarian_democrat = {
+			popularity = 2
+		}
+		paternal_autocrat = {
+			popularity = 1
+		}
+		national_populist = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = authoritarian_democrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+
