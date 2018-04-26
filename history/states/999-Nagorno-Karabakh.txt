@@ -7,7 +7,7 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = AZB
+		owner = RUS
 		victory_points = {
 			1467 1
 		}
@@ -17,6 +17,7 @@ state = {
 
 		}
 		add_core_of = AZB
+		add_core_of = RUS
 	}
 
 	provinces = {
